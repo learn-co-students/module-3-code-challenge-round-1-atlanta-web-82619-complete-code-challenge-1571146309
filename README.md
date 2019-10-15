@@ -30,12 +30,12 @@ Today we're building an app for viewing, liking, and commenting on a single pict
 
 A user of your app must be able to do the following things:
 
-- As a user, when the page loads, I should see:
+<!-- - As a user, when the page loads, I should see:
   - an image
   - any comments that image has
   - the number of likes that image has
 
-- As a user, I can click a button to like an image. When I click, the number of likes the image has should increase by one without the page refreshing.
+- As a user, I can click a button to like an image. When I click, the number of likes the image has should increase by one without the page refreshing. -->
 
 - As a user, I can enter text in an input field, and submit the form that the input is in. When I do, the app should add comment to the image without the page refreshing. I should see my new comment *below* any previous comments.
 
@@ -95,7 +95,7 @@ Use the data from the API response to change what's currently on the page (take 
 
 (If you cannot get your fetch request to work correctly, you can  use the example response above to append content to the DOM and attempt the subsequent steps)
 
-## Step 2 - Like Feature (Frontend)
+<!-- ## Step 2 - Like Feature (Frontend)
 
 The next feature to approach is the functionality to add likes to a picture. First, get this working in the browser only without worrying about persistence.
 
@@ -103,11 +103,11 @@ Clicking the 'Like' button should increase the number of likes shown on the page
 
 A user can like the same picture multiple times.
 
----
+--- -->
 
-## Step 3 - Like Feature (Backend)
+<!-- ## Step 3 - Like Feature (Backend)
 
-This app will use what is called _optimistic rendering_. This means the DOM will be updated *before* the changes are added to the database. When a user clicks the 'Like' button we will immediately update the DOM. Next, your job is to make a POST request to persist the new Like in the backend database.
+This app will use what is called _optimistic rendering_. This means the DOM will be updated *before* the changes are added to the database. When a user clicks the 'Like' button we will immediately update the DOM. Next, your job is to make a POST request to persist the new Like in the backend database. -->
 
 #### API Docs
 
